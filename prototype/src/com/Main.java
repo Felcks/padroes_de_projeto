@@ -12,6 +12,7 @@ public class Main {
 
         CarroPrototype palioUsado = palioPrototype.clonar();
         palioUsado.setValorCompra(50);
+
         CarroPrototype palioNovo = palioPrototype.clonar();
         palioNovo.setValorCompra(100);
 

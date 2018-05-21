@@ -10,8 +10,8 @@ public class GeneratorProduto {
 
     public Produto geraProduto(){
 
-        this.produtoBuilder.buildNome("uaehfuhafuhaefuhafeuh");
-        this.produtoBuilder.buildPreco(10);
+        this.produtoBuilder.buildNome();
+        this.produtoBuilder.buildPreco();
         return produtoBuilder.gerarProduto();
     }
 }

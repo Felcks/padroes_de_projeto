@@ -2,8 +2,8 @@ package com;
 
 public interface ProdutoBuilder {
 
-    public void buildNome(String nome);
-    public void buildPreco(int preco);
+    public void buildNome();
+    public void buildPreco();
 
     public Produto gerarProduto();
 }

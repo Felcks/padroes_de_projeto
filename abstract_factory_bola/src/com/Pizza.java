@@ -2,10 +2,10 @@ package com;
 
 public abstract class Pizza {
 
-    public String nome;
     protected Massa massa;
     protected Molho molho;
     protected Carne carne;
+
     public abstract void prepare();
 
     public void printarIngredientes(){

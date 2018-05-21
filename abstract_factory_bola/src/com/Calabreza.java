@@ -2,10 +2,10 @@ package com;
 
 public class Calabreza extends Pizza {
 
-        IPizzaIngredientAbstractFactory ingredientFactory;
-        public Calabreza(IPizzaIngredientAbstractFactory ingredientFactory) {
-            this.ingredientFactory = ingredientFactory;
-        }
+    IPizzaIngredientAbstractFactory ingredientFactory;
+    public Calabreza(IPizzaIngredientAbstractFactory ingredientFactory) {
+        this.ingredientFactory = ingredientFactory;
+    }
 
     @Override
     public void prepare() {
