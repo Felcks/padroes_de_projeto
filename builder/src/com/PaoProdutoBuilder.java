@@ -7,13 +7,13 @@ public class PaoProdutoBuilder implements ProdutoBuilder {
 
 
     @Override
-    public void buildNome(String nome) {
-        this.nome = nome;
+    public void buildNome() {
+        this.nome = "Pão";
     }
 
     @Override
-    public void buildPreco(int preco) {
-        this.preco = preco;
+    public void buildPreco() {
+        this.preco = 25;
     }
 
     @Override
